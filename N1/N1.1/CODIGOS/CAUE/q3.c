@@ -17,9 +17,7 @@ int main() {
     xmax = x_pixel;
 
     for (int i = 1; i < n; i++) {
-
         scanf("%hhu", &x_pixel);
-
         if (x_pixel < xmin) {
             xmin = x_pixel;
         }
